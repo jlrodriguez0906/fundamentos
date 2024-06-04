@@ -1,0 +1,3 @@
+Algoritmo factorial
+	
+FinAlgoritmo
