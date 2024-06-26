@@ -11,3 +11,9 @@ print ("Ingrese numero 2:")
 numero2 = int( input() )
 x = int(numero1) + numero2
 print ("La suma es: ", x)
+
+
+cade = "923"
+print(cade[0])
+print(cade[0])
+print(cade[0])
