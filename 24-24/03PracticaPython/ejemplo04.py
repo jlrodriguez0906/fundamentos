@@ -9,7 +9,7 @@ num2 = int(input())
 print("Ingrese numero 3: ")
 num3 = int(input())
 
-if num1 > num2 > num3:
+if (num1 > num2) and (num2 > num3):
     print(num3, " - ", num2, " - ", num1)
 elif num1 > num3 > num2:
     print(num2, " - ", num3, " - ", num1)
