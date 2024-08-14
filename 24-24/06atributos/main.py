@@ -6,4 +6,3 @@ f2 = Fraccion(4, 5)
 
 res = f1.multiplicar(f2)
 print( res )
-
