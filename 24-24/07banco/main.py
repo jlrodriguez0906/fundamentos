@@ -20,7 +20,9 @@
 
 import os
 
-cuentas = []
+from modelo.manejador import Manejador
+
+obj = Manejador()
 
 while True:
     os.system("cls")
@@ -32,9 +34,16 @@ while True:
     print("3. Retiro")
     print("4. Consulta de saldo")
     print("5. Consulta de transacciones")
-    print("6. Salir")
+    print("6. Consulta cuentas")
+    print("7. Salir")
     print("")
     print("Ingrese opción: ")
     op = input()
+    if op == "1":
+        obj.crear_cuenta()
+    if op == "2":
+        obj.depositar()
     if op == "6":
+        obj.mostrar_cuentas()
+    if op == "7":
         break

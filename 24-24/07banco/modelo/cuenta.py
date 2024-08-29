@@ -20,7 +20,7 @@ class Cuenta:
                            self.saldo)
     
     def depositar(self, monto):
-        self.saldo = self.saldo + monto
+        self.saldo = self.saldo + int(monto) 
         self.transaccion.append("DEPOSITO: %s\tSALDO: %s "%(monto, self.saldo) )
         return "Depósito realizado con éxito ($%s)"%(monto)
 
